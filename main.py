@@ -54,7 +54,7 @@ async def on_message(message):
             try:
                 # Appel à l'API de Gemini (Modèle 2.0 Flash)
                 response = gemini_client.models.generate_content(
-                    model="gemini-2.0-flash",
+                    model="gemini-2.5-flash-lite",
                     contents=clean_prompt,
                 )
                 
