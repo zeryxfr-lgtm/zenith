@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 2. Récupérer les clés de manière sécurisée
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+DISCORD_TOKEN = os.getenv("DISCORD_TOEN")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # Petite sécurité pour vérifier que les clés sont bien chargées
